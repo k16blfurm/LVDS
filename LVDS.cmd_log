@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Blaine/Documents/Xilinx/LVDS/LVDS.xst" -ofn "C:/Users/Blaine/Documents/Xilinx/LVDS/LVDS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CMOD.ucf -p xc6slx4-csg225-3 LVDS.ngc LVDS.ngd  

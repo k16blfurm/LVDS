@@ -19,23 +19,40 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;  
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
 
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+-- Note that the LVDS connections are on the schematic
+-- https://reference.digilentinc.com/_media/reference/programmable-logic/cmod-s6/cmods6_sch.pdf
 
 entity LVDS is
-end LVDS;
+PORT ( B3, B4: IN BIT;
+		 A3, A4: OUT BIT
+		 
 
+);
+end LVDS;
+--
 architecture Behavioral of LVDS is
 
+
+
+
 begin
+end Behavioral
 
 
-end Behavioral;
+-- LDVS pair
+clck_in_IBUFDS: unisim.vcomponents.IBUFDS
+port map (
+  I  => B3,
+  IB => A3,
+  O  => clk_200Mhz
+);
 
+clck_in_two_IBUFDS: unisim.vcomponents.IBUFDS
+port map (
+  I  => B4,
+  IB => A4,
+  O  => clk_200Mhz
+);

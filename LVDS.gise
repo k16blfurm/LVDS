@@ -21,8 +21,94 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LVDS.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LVDS.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LVDS.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LVDS.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LVDS.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="LVDS.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LVDS.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LVDS.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LVDS.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LVDS.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LVDS.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LVDS_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LVDS_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LVDS_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1567147371" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1567147371">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147371" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-93293995226345094" xil_pn:start_ts="1567147371">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147371" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1091249022579321482" xil_pn:start_ts="1567147371">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147371" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1567147371">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147371" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-573343249570193924" xil_pn:start_ts="1567147371">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147371" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5609353908610680735" xil_pn:start_ts="1567147371">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147371" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="9037306737971379648" xil_pn:start_ts="1567147371">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147379" xil_pn:in_ck="3352829334889" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-7565814224872483603" xil_pn:start_ts="1567147371">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="LVDS.lso"/>
+      <outfile xil_pn:name="LVDS.ngc"/>
+      <outfile xil_pn:name="LVDS.ngr"/>
+      <outfile xil_pn:name="LVDS.prj"/>
+      <outfile xil_pn:name="LVDS.stx"/>
+      <outfile xil_pn:name="LVDS.syr"/>
+      <outfile xil_pn:name="LVDS.xst"/>
+      <outfile xil_pn:name="LVDS_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147379" xil_pn:in_ck="2958052835631" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-4541683894652155215" xil_pn:start_ts="1567147379">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147384" xil_pn:in_ck="-7849464474616630418" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6006537420122114113" xil_pn:start_ts="1567147379">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LVDS.bld"/>
+      <outfile xil_pn:name="LVDS.ngd"/>
+      <outfile xil_pn:name="LVDS_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1567147384" xil_pn:in_ck="-7849464474616630417" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1567147384">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+  </transforms>
 
 </generated_project>
